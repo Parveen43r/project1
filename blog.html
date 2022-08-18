@@ -1,0 +1,139 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet"href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+<nav>
+    <img src="images/logo.jpg"alt="">
+    <div class="navigation">
+         <ul>
+            <i id="menu-close" class="fas fa-times"> </i>
+             <li><a href="index.html"> Home </a></li>
+             <li><a href="about.html"> About </a></li>
+             <li><a class="active" href="blog.html"> Blog </a></li>
+             <li><a href="course.html"> Courses </a></li>
+             <li><a href="contact.html"> Contact </a></li>
+         </ul>
+          <img id="menu-btn" src="images/menu.png" alt="">
+    </div>
+</nav>
+
+    <!-- Home -->
+
+<section id="about-home">
+    <h2>Blog</h2>   
+</section>
+
+<section id="blog-container">
+    <div class="blogs">
+        <div class="post">
+            <img src="images/b1.jpg" alt="">
+            <h3>Learn Web Development In The Easiest Way</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis molestiae adipisci, nam asperiores nesciunt vel eius illo, veniam nisi, atque placeat rem quidem itaque laudantium? Reiciendis quis pariatur aliquid aperiam.</p>
+            <a href="post1.html">Read More</a>
+        </div>
+        <div class="post">
+            <img src="images/b2.jpg" alt="">
+            <h3>Learn Web Development In The Easiest Way</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis molestiae adipisci, nam asperiores nesciunt vel eius illo, veniam nisi, atque placeat rem quidem itaque laudantium? Reiciendis quis pariatur aliquid aperiam.</p>
+            <a href="post2.html">Read More</a>
+        </div>
+        <div class="post">
+            <img src="images/b3.jpg" alt="">
+            <h3>Learn Web Development In The Easiest Way</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis molestiae adipisci, nam asperiores nesciunt vel eius illo, veniam nisi, atque placeat rem quidem itaque laudantium? Reiciendis quis pariatur aliquid aperiam.</p>
+            <a href="post3.html">Read More</a>
+        </div>
+        <div class="post">
+            <img src="images/b4.png" alt="">
+            <h3>Learn Web Development In The Easiest Way</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis molestiae adipisci, nam asperiores nesciunt vel eius illo, veniam nisi, atque placeat rem quidem itaque laudantium? Reiciendis quis pariatur aliquid aperiam.</p>
+            <a href="post4.html">Read More</a>
+        </div>
+    </div>
+
+    <div class="cate">
+        <h2>Categories</h2>
+        <hr>
+        <a href="#">Web Development</a>
+        <hr>
+        <a href="#">Web Design</a>
+        <hr>
+        <a href="#">App Development</a>
+        <hr>
+        <a href="#">Frontend Web </a>
+        <hr>
+        <a href="#">Web Development</a>
+        <hr>
+        <a href="#">Web Development</a>
+        <hr>
+    </div>
+</section>
+
+   <!-- footer -->
+
+   <footer>
+    <div class="footer-col">
+        <h3>ABOUT GETPAID</h3>
+        <P>We are here to help you <P>to have a passion and the urge to build </P> <P>a realistic dream for themselves.</P> <P> Bizgurukul is here to create a platform that</P> <P>gives you plenty of reasons to stand out </P>         </P>
+    </div>
+
+    <div class="footer-col">
+        <h3>Useful Links</h3>
+        <li><a href="footer1.html">Disclaimer</a></li> 
+        <li>Privacy</li> 
+        <li>Refund Policy</li> 
+        <li>terms & conditions</li> 
+    </div>
+    <div class="footer-col">
+        <h3>Contact</h3>
+        <li>info@learninspire.in</li> 
+        <li>+91 7525022438</li> 
+        <li>Telangana Hyderabaad</li>
+    </div>
+
+    <div class="footer-col">
+        <h3>Subscribe For Newsletter</h3>
+        <p>Don’t miss our future updates! <p>Get Subscribed Today!</p> </p>
+        <div class="subscribe">
+            <a href="#" class="yellow">SUBSCRIBE NOW </a>
+        </div>
+    </div>
+    
+    <div class="copyright">
+        <p>All Rights Reserved © 2022 | GETPAID</p>
+        <div class="pro-links">
+         <i class="fab fa-facebook"></i>
+         <i class="fab fa-instagram"></i>
+         <i class="fab fa-linkedin-in"></i>
+     </div>
+    </div>
+</footer>
+
+   <script>
+       $('#menu-btn').click(function(){
+           $('nav .navigation ul').addClass('active')
+       });
+       $('#menu-close').click(function(){
+           $('nav .navigation ul').removeClass('active')
+       });
+   </script>
+    
+</body>
+
+</html> 
