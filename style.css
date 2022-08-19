@@ -330,7 +330,7 @@ nav .navigation ul li a:hover {
 }
 
 #experts .expert-box .profile {
-    background: #E8F0FD;
+    background: rgb(241 240 245);
     padding: 30px 10px;
     border-radius: 15px;
 }
